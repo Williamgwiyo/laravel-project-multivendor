@@ -20,15 +20,15 @@ return [
     'admin'=>[
         'driver'=>'eloquent',
         'model'=>App\Models\Admin::class,
-    ]
+    ],
     'client'=>[
         'driver'=>'eloquent',
         'model'=>App\Models\Client::class,
-    ]
+    ],
     'seller'=>[
         'driver'=>'eloquent',
         'model'=>App\Models\Seller::class,
-    ]
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -136,15 +136,15 @@ return [
         'admins'=>[
             'driver'=>'eloquent',
             'model'=>App\Models\Admin::class,
-        ]
+        ],
         'clients'=>[
             'driver'=>'eloquent',
             'model'=>App\Models\Client::class,
-        ]
+        ],
         'sellers'=>[
             'driver'=>'eloquent',
             'model'=>App\Models\Seller::class,
-        ]
+        ],
     ],
 
     /*
